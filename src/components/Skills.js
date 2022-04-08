@@ -6,6 +6,7 @@ import SectionTitle from './SectionTitle';
 
 
 const SStyles = styled.div`
+padding: 5rem 0;
 .container{
 flex-direction:row;
 display:flex;
@@ -18,6 +19,15 @@ svg{
     width: 7rem;
     border-radius:40%;
     margin: 1rem 1rem 1rem 1rem;
+}
+
+@media only and screen (max-width:768px){
+    svg{
+    
+    width: 4rem;
+    border-radius:40%;
+    margin: 0 1rem;
+}
 }
 `;
 

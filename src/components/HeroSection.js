@@ -12,7 +12,7 @@ import {BsInstagram} from 'react-icons/bs'
 const HeroStyles = styled.div`
   .hero {
     height: 100vh;
-    min-height: 1000px;
+    min-height: 950px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -45,7 +45,7 @@ const HeroStyles = styled.div`
       p{
           color: var(--white);
       }
-    margin-top: -18rem;
+    margin-top: -17.5rem;
   }
   .hero__social,
   .hero__scrollDown {
@@ -105,7 +105,8 @@ const HeroStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .hero {
-      min-height: 750px;
+      max-height:800px;
+      min-height:0;
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -145,6 +146,7 @@ const HeroStyles = styled.div`
       }
     }
     .hero__scrollDown {
+      margin-top:20px;
       right: 0;
       width: 20px;
       gap: 1rem;

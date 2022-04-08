@@ -1,5 +1,6 @@
 import React from "react";
 import { MdDesktopMac } from "react-icons/md";
+import { BsCameraVideo } from 'react-icons/bs';
 import styled from "styled-components";
 import SectionTitle from "./SectionTitle";
 import ServicesItem from "./ServicesItem";
@@ -37,7 +38,12 @@ const Services = () => {
             desc="Lorem ipsum dolor sit ametconsectetur adipisicing elit.Cupiditate eveniet laboriosam nobis,necessitatibus temporibus reiciendis"
           />
 
-          <ServicesItem />
+          <ServicesItem 
+            icon={<BsCameraVideo />}
+            title="Video Editing"
+            desc="I can do simple video editing using Adobe Premiere Pro "
+          />
+
           <ServicesItem />
         </div>
       </div>

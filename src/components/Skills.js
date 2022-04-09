@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import {SiJavascript, SiHtml5, SiCss3, SiGit, SiMongodb} from 'react-icons/si';
+import {SiJavascript, SiHtml5, SiCss3, SiPython, SiGit, SiMongodb, SiAdobephotoshop} from 'react-icons/si';
 import {FaReact, FaNodeJs} from 'react-icons/fa';
 import SectionTitle from './SectionTitle';
 
@@ -42,13 +42,15 @@ export default function skills() {
     </SectionTitle>
 
       <div className="container">
-            <SiJavascript />
             <FaReact />
+            <SiJavascript />
             <SiHtml5 />
             <SiCss3 />
             <FaNodeJs />
             <SiGit />
             <SiMongodb />
+            <SiAdobephotoshop />
+            <SiPython />
       </div>
 
     </SStyles>

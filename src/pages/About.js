@@ -5,9 +5,24 @@ import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
+import CV from '../assets/data/CV.pdf';
+
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
+
+
+    a{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    background-color: var(--gray-1);
+    padding: 0.7em 2em;
+    border-radius: 8px;
+    display: inline-block;
+    border: 2px solid var(--gray-1);
+    color: black;
+    }
+
 
   .top__section {
     display: flex;
@@ -104,7 +119,9 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a href={CV} download>
+                  Download CV
+              </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

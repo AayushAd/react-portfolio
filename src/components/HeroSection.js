@@ -62,6 +62,7 @@ const HeroStyles = styled.div`
   }
   .hero__scrollDown {
     right: 50px;
+    bottom: 15rem;
   }
 
   .hero__social__indicator,
@@ -146,6 +147,7 @@ const HeroStyles = styled.div`
       }
     }
     .hero__scrollDown {
+      bottom:0px;
       margin-top:20px;
       right: 0;
       width: 20px;

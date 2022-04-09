@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import PortfolioImg from '../images/portfolio.jpeg';
-import GreenCtgImg from '../images/greenctg.jpg';
+import SimonImg from '../images/simons_game.jpg';
 
 
 const projects = [
@@ -16,7 +16,7 @@ const projects = [
     name: 'Simons Game ',
     desc:
       'A simple but fun game, made using JS. It is played by remembering sequence',
-    img: GreenCtgImg,
+    img: SimonImg,
   },
 
 ];

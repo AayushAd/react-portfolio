@@ -83,6 +83,7 @@ export default function ProjectsSection() {
             }}
           >
             {projects.map((project, index) => {
+              // eslint-disable-next-line array-callback-return
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>

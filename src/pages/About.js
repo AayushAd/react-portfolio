@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/aayush.jpeg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 import CV from '../assets/data/CV.pdf';
@@ -57,6 +57,7 @@ const AboutPageStyles = styled.div`
   .right {
     img {
       border: 2px solid var(--gray-1);
+      
     }
   }
   .about__info__items {

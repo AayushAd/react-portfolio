@@ -87,7 +87,7 @@ export default function About() {
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
+                  I am from Kathmandu, Nepal. A place of beauty and
                   nature. Since my childhood, i love art and design. I always
                   try to design stuff with my unique point of view. I also love
                   to create things that can be usefull to others.
@@ -132,15 +132,15 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'ReactJs.']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express']}
+                items={['Node', 'Express', 'Python']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Adobe Express']}
+                title="Editing"
+                items={['Photoshop', 'Adobe Premier Pro ']}
               />
             </div>
             <div className="about__info__item">

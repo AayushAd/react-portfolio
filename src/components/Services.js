@@ -35,16 +35,16 @@ const Services = () => {
           <ServicesItem
             icon={<MdDesktopMac />}
             title="Web Dev"
-            desc="Lorem ipsum dolor sit ametconsectetur adipisicing elit.Cupiditate eveniet laboriosam nobis,necessitatibus temporibus reiciendis"
+            desc="I am a Full-Stack web developer with knowledge of industry leading technologies like ReactJs., JavaScript., NodeJs., MongoDB etc. I offer services in MERN development."
           />
 
           <ServicesItem 
             icon={<BsCameraVideo />}
             title="Video Editing"
-            desc="I can do simple video editing using Adobe Premiere Pro "
+            desc="I can do simple video editing using softwares like Adobe Premiere Pro. I can offer some services in pre- and post-production editing, storyboarding footage manipulation.  "
           />
 
-          <ServicesItem />
+          {/* <ServicesItem /> */}
         </div>
       </div>
     </ServicesStyles>

@@ -93,11 +93,9 @@ export default function About() {
               heading="About Me"
               />
               <PText>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  Ratione est laboriosam delectus dolores esse mollitia perferendis 
-                  temporibus reiciendis architecto obcaecati alias impedit ea facilis hic, 
-                  nisi iure error similique ex minima. 
-                  Iste ipsa, molestiae repellat optio distinctio cupiditate. 
+                Currently a final year Computer Science and Engineering student. I am a 
+                web developer with some knowledge of machine learning as well. I am from Nepal.
+                I am a fast learner and I like taking challanges and solving real-life problems.
               </PText>
               <div className="about__buttons">
                   <Button btnLink="/projects" btnText="Works"/>

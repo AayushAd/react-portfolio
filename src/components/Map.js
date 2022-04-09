@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import MapImg from '../assets/images/map.png';
+import MapImg from '../assets/images/mapp.png';
 import PText from './PText';
 
 const MapStyles = styled.div`
@@ -21,6 +21,11 @@ const MapStyles = styled.div`
     width: 100%;
     max-width: 300px;
     border-radius: 12px;
+    {
+      a{
+        text-decoration:underline;
+      }
+    }
   }
   .map__card__heading {
     font-size: 3rem;
@@ -51,7 +56,7 @@ export default function Map() {
             Here is me
         </h3>
         <PText>
-            Kirtipur, Kathmandu
+            Kathmandu, Nepal
         </PText>
         <a href="https://google.com" target="_blank" rel='noreferrer' >Open in Google Map</a>
       </div>

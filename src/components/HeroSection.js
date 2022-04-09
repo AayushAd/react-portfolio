@@ -171,7 +171,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer
+              I am working as a Web Designer and Developer
               .I love to design and make new web experiences for the
               people. I am currently a CS university student.
             </PText>
@@ -186,7 +186,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/aayush-adhikari/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -195,7 +195,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/AayushAd"
                     target="_blank"
                     rel="noreferrer"
                   >

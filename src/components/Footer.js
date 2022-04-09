@@ -4,7 +4,7 @@ import FooterCol from "./FooterCol";
 import styled from "styled-components";
 
 const FooterStyles = styled.div`
-  padding-top: 10rem ;
+  padding-top: 7rem ;
   padding-bottom: 1rem ;
 
   background-color: var(--deep-dark);
@@ -74,8 +74,8 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Aayush Adhikari</h1>
           <PText>
-            Hello i am aayush. Hello i am aayush. Hello i am aayush. Hello i am
-            aayush.
+            Hey so you did make it to the last. Thankyou!!
+            Have a good day. 
           </PText>
         </div>
         <div className="footer__col2">
@@ -114,12 +114,12 @@ export default function Footer() {
                 path: "tel:+9779840738108",
               },
               {
-                title: "aayushadhikari07@gmail.com",
+                title: "aayush.adhikari.extra@gmail.com",
                 path: "mailto:aayushadhikari07@gmail.com",
               },
               {
-                title: "Kirtipur, Kathmandu Nepal",
-                path: "http://google.com/maps",
+                title: "Kathmandu, Nepal",
+                path: "https://www.google.com/maps/@27.7055547,85.2589709,12.27z?hl=en",
               },
             ]}
           />
@@ -129,8 +129,8 @@ export default function Footer() {
             heading="Social Links"
             links={[
               {
-                title: "Google",
-                path: "http://google.com/maps",
+                title: "Github",
+                path: "https://github.com/AayushAd",
               },
               {
                 title: "Insta",
@@ -138,7 +138,7 @@ export default function Footer() {
               },
               {
                 title: "Linkedin",
-                path: "http://linkedin.com/",
+                path: "https://www.linkedin.com/in/aayush-adhikari/",
               },
             ]}
           />

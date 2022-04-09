@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionTitle from './SectionTitle';
 import PText from './PText';
-import Button from './Button';
 import AboutImg from '../assets/images/about-sec-img.png';
 import styled from 'styled-components';
 

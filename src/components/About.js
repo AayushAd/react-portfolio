@@ -96,7 +96,7 @@ export default function About() {
               <PText>
                 Currently a final year Computer Science and Engineering student. I am a 
                 web developer with some knowledge of machine learning as well. I am from Nepal.
-                I am a fast learner and I like taking challanges and solving real-life problems.
+                I am a fast learner and I like taking challenges and solving real-life problems.
               </PText>
               <div className="about__buttons">
                   <Button btnLink="/projects" btnText="Works"/>

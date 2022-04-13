@@ -28,7 +28,7 @@ text-align: center;
 export default function ServicesItem({
   icon = <MdDesktopMac />,
   title = "Web Design",
-  desc = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Cupiditate eveniet laboriosam nobis,necessitatibus temporibus reiciendis",
+  desc = "I am a web-designer.",
 }) {
   return (
     <ItemStyles>

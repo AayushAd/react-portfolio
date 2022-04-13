@@ -4,7 +4,7 @@ import ContactBanner from '../components/ContactBanner';
 import HeroSection from '../components/HeroSection';
 import ProjectsSec from '../components/ProjectsSec';
 import Services from '../components/Services';
-import Testimo from '../components/Testimo';
+// import Testimo from '../components/Testimo';
 import Skills from '../components/Skills'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <Skills />
       <Services />
       <ProjectsSec />
-      <Testimo />
+      {/* <Testimo /> */}
       <ContactBanner />
     </div>
   )

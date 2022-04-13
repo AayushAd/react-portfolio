@@ -7,7 +7,6 @@ import SectionTitle from './SectionTitle';
 import 'swiper/swiper-bundle.min.css';
 import projects from '../assets/data/projects';
 
-// install Swiper modules
 SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`

@@ -14,7 +14,7 @@ useEffect(()=>{
 }, [pathname])
 
   return (
-    <ScrollBar ref={ref} damping='.09'>
+    <ScrollBar ref={ref} damping='.08'>
       {children}
     </ScrollBar>
   );

@@ -11,7 +11,9 @@ const NavStyles = styled.div`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-bg);
+  background:rgb(38 38 38 / 63%); 
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
   .nav{
     margin-bottom:0px;
